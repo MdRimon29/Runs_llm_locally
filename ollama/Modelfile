@@ -1,4 +1,4 @@
-FROM llama3.1
+FROM gemma3:12b
 
 # set temperature
 PARAMETER temperature 1
