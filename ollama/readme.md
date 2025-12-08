@@ -1,26 +1,26 @@
-# Official Github repo for ollama-
+## Official Github repo for ollama-
 https://github.com/ollama/ollama?tab=readme-ov-file
 
 
-# Download ollama from this link for your own device os-
+## Download ollama from this link for your own device os-
     https://ollama.com/download
 
-# After download install it.
+## After download install it.
 Then to see wheather its download and install properly or not type this in your terminal-
     ollama --version
 
-# Then to see which models are available run following command in terminal.
+## Then to see which models are available run following command in terminal.
     ollama list
 
-# To download a model go to ollama official github repo which is provided before, then run a model as your wish with given command there. If that is already available to your local machine then it runs directly, otherwise it takes some times to download the model, then run.
+## To download a model go to ollama official github repo which is provided before, then run a model as your wish with given command there. If that is already available to your local machine then it runs directly, otherwise it takes some times to download the model, then run.
     github repo link- https://github.com/ollama/ollama?tab=readme-ov-file
 
-# Turn off/try to exit command or reponse ?
+## Turn off/try to exit command or reponse ?
 - use ctrl+c to exit in windows.
 - In mac use ctrl+d
 
 
-# Customize a model and prompt
+## Customize a model and prompt
 - create a modelfile
 - edit in following format:
     FROM llama3.2
@@ -40,11 +40,11 @@ Then to see wheather its download and install properly or not type this in your 
 
 
 
-# Where models are stored?
+## Where models are stored?
 - By default, Ollama stores all downloaded models in this hidden folder:
     ~/Library/Application Support/Ollama/models
--when you ask question to llm, I mean ollama, its response stores in ram, it doesn't stored that information permanently
+- when you ask question to llm, I mean ollama, its response stores in ram, it doesn't stored that information permanently
 
-# How to delete models you don't need?
+## How to delete models you don't need?
 - Run following command in your terminal-
     ollama rm <model_name>
